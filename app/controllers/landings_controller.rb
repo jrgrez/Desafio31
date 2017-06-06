@@ -3,6 +3,7 @@ class LandingsController < ApplicationController
   end
 
   def y
+    render layout: "layout"
   end
 
   def z
